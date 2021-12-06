@@ -1,0 +1,26 @@
+Significant Program Proposal
+
+(This is a proposal. All proposals are written with our best knowledge
+at the beginning of a project. As we progress from the beginning to the
+end of a project, we gain more knowledge, and some of the ideas we
+proposed change. This is part of completing any project and is fine.
+However, we still must write a proposal so that our teachers or
+supervisors know what we intend to do. Please answer each of the
+following questions to the best of your knowledge.)
+
+1. What is the title of your program?    :Pokemon battle simulator
+
+2. What real world problem will your program address or help to solve?        :Boredom
+
+3. What will you learn from developing this program?      :libral use of dictionaries/classes not sure which if not both and a lot of calculations
+
+4. What Python modules will your program use? (Some examples are: csv,
+datetime, functools, matplotlib, math, pandas, pytest, random, requests,
+and tkinter.)
+
+:Random, and maybe something to do visuals but probably not
+
+5. Will you separate your Python program into functions that each
+perform a single task?        :yes
+
+6. Will you write test functions to test many of your program functions?      :no

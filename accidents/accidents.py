@@ -18,11 +18,14 @@ FATIGUE_COLUMN = 9
 
 def main():
     # Prompt the user for a filename and open that text file.
-    filename = input("Name of file that contains NHTSA data: ")
-    with open(filename, "rt") as text_file:
-
+    print()
+    
+    try:
+        filename = input("Name of file that contains NHTSA data: ")
+        with open(filename, "rt") as text_file:
+            #break
         # Prompt the user for a percentage.
-        perc_reduc = float(input(
+            perc_reduc = float(input(
             "Percent reduction of texting while driving [0, 100]: "))
 
         print()
@@ -53,6 +56,15 @@ def main():
             # Print the estimated reductions
             # in injuries and fatalities.
             print(year, injur, fatal, sep=", ")
+    except FileNotFoundError as error:
+        print("please enter a valid file: ")
+    except PermissionError as perm_error:
+        print("you do not have permission")
+    '''except ValueError as val_error:
+        print("enter a number between 1 and 100")'''
+        
+
+    
 
 
 def estimate_reduction(row, behavior_key, perc_reduc):
